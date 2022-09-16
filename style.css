@@ -42,7 +42,6 @@ body{
     grid-template-columns: repeat(4,1fr);
     gap:20px;
     padding:50px;
-    justify-items: left;
     
 }
 
@@ -137,32 +136,32 @@ opacity: 70%;
 
     .testimonial {
         grid-template-columns: 1fr;
-        }
-                .Daniel {
-                    grid-column: 1;
-                    grid-row: 1/1;
-                }
+    }
+    .Daniel {
+        grid-column: 1;
+        grid-row: 1/1;
+    }
+
+    .Jonathan {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .Jeanette {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .Patrick {
+        grid-column: 1;
+    grid-row: 4;
         
-                .Jonathan {
-                   grid-column: 1;
-                   grid-row: 2;
-                }
+    }
+
+    .Kira {
+        grid-column: 1;
+        grid-row: 5;
         
-                .Jeanette {
-                    grid-column: 1;
-                   grid-row: 3;
-                }
-        
-                .Patrick {
-                   grid-column: 1;
-                grid-row: 4;
-                    
-                }
-        
-                .Kira {
-                    grid-column: 1;
-                   grid-row: 5;
-                    
-                }
-    
+    }
+
 }
